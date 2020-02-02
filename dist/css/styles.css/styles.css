@@ -1,0 +1,304 @@
+* {
+  font-family: "Voltaire", sans-serif; }
+
+#lineup {
+  width: 100%;
+  background-color: #e4e4e4; }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color: #ffadad; }
+
+#nav-home img {
+  width: 320px;
+  height: 220px; }
+
+.tab-content {
+  background-color: #e4e4e4;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+.slika_art {
+  margin: 2em 0.5em 2em 0.5em;
+  border-radius: 70px; }
+
+@media only screen and (min-width: 992px) {
+  .main_content_body {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  #slajder_news {
+    background-color: black; }
+  #najava {
+    order: 1; }
+  #najava_slika {
+    order: 2; }
+  .main_content_body div img {
+    width: 50%; }
+  .textt {
+    font-size: 30px;
+    margin: auto 20px auto 20px;
+    text-align: center; }
+  .feedback {
+    margin: 30px 100px;
+    text-align: center; }
+  .logo {
+    position: relative;
+    left: 1px;
+    bottom: 10px; }
+  .logo img {
+    width: 10em; }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    position: relative;
+    left: 10em;
+    font-size: 1em;
+    padding-right: 2em; }
+  .vremee {
+    padding: 7px;
+    text-align: right;
+    position: relative;
+    top: 50px;
+    z-index: 2;
+    background: none; }
+  .vrem {
+    border: solid;
+    padding: 5px;
+    display: inline;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 5px; }
+  .day,
+  .hour,
+  .min,
+  .sec {
+    padding: 3px; }
+  .prozori {
+    font-size: 20px;
+    margin-left: 2px; }
+  #lineup {
+    height: 250px;
+    width: 100%; }
+  #lineup h2 {
+    position: relative;
+    top: 60px; }
+  .nav-tabs {
+    margin-top: 150px; }
+  #nav-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+  .newsletter {
+    background-color: black;
+    width: 100%; }
+  .tab-content {
+    padding-left: 3em; } }
+
+@media only screen and (min-width: 767px) {
+  .poglavlje > h2 {
+    text-align: center;
+    border-bottom: solid;
+    padding: 40px;
+    margin: 0 250px 0 250px; }
+  .logo {
+    position: relative;
+    right: 5em;
+    bottom: 0.25em; }
+  .logo img {
+    width: 8.5em; }
+  .main_content_body {
+    margin: auto;
+    margin: 0 100px 0 100px; }
+  .main_content_body div img {
+    width: 100%; }
+  .textt {
+    text-align: center; }
+  .vremee {
+    padding: 7px;
+    text-align: right;
+    position: relative;
+    top: 50px;
+    z-index: 2;
+    background: none; }
+  .vrem {
+    border: solid;
+    padding: 5px;
+    display: inline;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 5px; } }
+
+@media only screen and (max-width: 767px) {
+  .poglavlje > h2 {
+    text-align: center;
+    border-bottom: solid;
+    margin: 0 50px 0 50px; }
+  .main_content_body {
+    margin: auto;
+    width: 90%; }
+  .main_content_body div img {
+    width: 100%; }
+  .feedback {
+    margin: 15px;
+    text-align: center; }
+  .textt {
+    text-align: center;
+    position: relative;
+    top: 10px; }
+  .logo {
+    position: relative;
+    right: 5em;
+    bottom: 0.25em; }
+  .logo img {
+    width: 8.5em; }
+  .btn {
+    position: relative;
+    top: 10px;
+    margin-top: 10px;
+    z-index: 2; }
+  .vremee {
+    display: none; }
+  .newsletter {
+    background-color: black;
+    height: 230px;
+    width: initial; }
+  #lineup {
+    height: 10em; }
+  #lineup h2 {
+    position: relative;
+    top: 1em; } }
+
+.main_content {
+  color: black;
+  background-color: #e4e4e4;
+  margin: 0;
+  padding: 10px; }
+
+.poglavlje > h2 {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  color: #9b0000;
+  font-weight: bold;
+  padding: 30px 0 20px 0; }
+
+footer {
+  background-color: black;
+  color: red;
+  text-align: center;
+  padding: 0.7em; }
+
+.fa {
+  font-size: 30px;
+  width: 30px;
+  margin: 3px 3px;
+  opacity: 0.9; }
+
+.fa:hover {
+  opacity: 0.7; }
+
+.fa-facebook {
+  color: #e2cccc; }
+
+.fa-twitter {
+  color: #e2cccc; }
+
+.fa-youtube {
+  color: #e2cccc; }
+
+.fa-instagram {
+  color: #e2cccc; }
+
+.main_content_body {
+  background-color: whitesmoke;
+  border-radius: 5px; }
+
+nav {
+  background-color: black;
+  color: #e4e4e4;
+  position: fixed !important;
+  top: 0px;
+  z-index: 3;
+  width: 100%; }
+
+.header {
+  margin-top: 50px;
+  background-color: black;
+  color: red;
+  text-align: center;
+  padding-bottom: 10px; }
+
+.header p {
+  margin: 10px;
+  font-size: 1.5em;
+  position: relative;
+  animation-name: gore;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; }
+
+@keyframes gore {
+  0% {
+    opacity: 0;
+    top: 1.5em; }
+  100% {
+    opacity: 1;
+    top: 0px; } }
+
+.navbar-toggler-icon {
+  background-color: #e4e4e4;
+  border-radius: 5px;
+  width: 2em;
+  height: 1.5em;
+  border: solid whitesmoke; }
+
+.logo {
+  height: 2em;
+  width: 3em; }
+
+.artists {
+  background-size: cover;
+  margin: auto;
+  border-radius: 5px; }
+
+.btn {
+  background-color: #9b0000;
+  color: whitesmoke;
+  border: solid black; }
+
+.navbar-nav .nav-link {
+  color: whitesmoke; }
+
+.sub_btn {
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 5px; }
+
+.poglavlje {
+  animation: transitionIn 1s; }
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-20deg); }
+  to {
+    opacity: 1;
+    transform: rotateX(0); } }
+
+.news_text {
+  position: relative;
+  bottom: 120px;
+  color: whitesmoke;
+  float: left;
+  text-align: center;
+  font-size: 1.3em;
+  width: 100%; }
+
+.news_text div {
+  margin-bottom: 10px; }
+
+.clear {
+  clear: both; }
+
+.inp {
+  background-color: black;
+  color: whitesmoke;
+  margin-bottom: 10px;
+  border-left: none;
+  border-right: none;
+  border-top: none; }

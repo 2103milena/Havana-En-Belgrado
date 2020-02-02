@@ -1,0 +1,180 @@
+* {
+  font-family: "Voltaire", sans-serif;
+}
+
+// @import "./header";
+@import "./artists";
+
+@import "./main_content_index";
+
+// @import "./variables";
+
+// @import "./footer";
+@import "./comp_version";
+@import "./tablet_version";
+@import "./mobile_version";
+
+.main_content {
+  color: rgb(0, 0, 0);
+  background-color: rgb(228, 228, 228);
+  margin: 0;
+  padding: 10px;
+}
+
+.poglavlje > h2 {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  color: rgb(155, 0, 0);
+  font-weight: bold;
+  padding: 30px 0 20px 0;
+}
+
+footer {
+  background-color: black;
+  color: red;
+  text-align: center;
+  padding: 0.7em;
+}
+.fa {
+  font-size: 30px;
+  width: 30px;
+  margin: 3px 3px;
+  opacity: 0.9;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  color: rgb(226, 204, 204);
+}
+.fa-twitter {
+  color: rgb(226, 204, 204);
+}
+.fa-youtube {
+  color: rgb(226, 204, 204);
+}
+.fa-instagram {
+  color: rgb(226, 204, 204);
+}
+
+.main_content_body {
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+nav {
+  background-color: black;
+
+  color: rgb(228, 228, 228);
+
+  position: fixed !important;
+  top: 0px;
+  z-index: 3;
+  width: 100%;
+}
+
+.header {
+  margin-top: 50px;
+  background-color: black;
+  color: red;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.header p {
+  margin: 10px;
+  font-size: 1.5em;
+  position: relative;
+  animation-name: gore;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes gore {
+  0% {
+    opacity: 0;
+    top: 1.5em;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
+.navbar-toggler-icon {
+  background-color: rgb(228, 228, 228);
+  border-radius: 5px;
+  width: 2em;
+  height: 1.5em;
+  border: solid whitesmoke;
+}
+
+.logo {
+  height: 2em;
+  width: 3em;
+}
+
+.artists {
+  // opacity: 0.7;
+  background-size: cover;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: rgb(155, 0, 0);
+  color: whitesmoke;
+  border: solid rgb(0, 0, 0);
+}
+
+.navbar-nav .nav-link {
+  color: whitesmoke;
+}
+
+.sub_btn {
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+
+.poglavlje {
+  animation: transitionIn 1s;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-20deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+.news_text {
+  position: relative;
+  bottom: 120px;
+  color: whitesmoke;
+  float: left;
+ 
+  text-align: center;
+  font-size: 1.3em;
+  width: 100%;
+  
+}
+
+.news_text div{
+  margin-bottom: 10px;
+}
+.clear {
+  clear: both;
+  
+}
+.inp{
+  background-color: black;
+  color: whitesmoke;
+  margin-bottom: 10px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  
+}

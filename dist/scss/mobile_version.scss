@@ -1,0 +1,56 @@
+@media only screen and (max-width: 767px) {
+  .poglavlje > h2 {
+    text-align: center;
+    border-bottom: solid;
+    margin: 0 50px 0 50px;
+  }
+
+  .main_content_body {
+    margin: auto;
+    width: 90%;
+  }
+
+  .main_content_body div img {
+    width: 100%;
+  }
+  .feedback {
+    margin: 15px;
+    text-align: center;
+  }
+  .textt {
+    text-align: center;
+    position: relative;
+    top: 10px;
+  }
+  .logo {
+    position: relative;
+    right: 5em;
+    bottom: 0.25em;
+  }
+  .logo img {
+    width: 8.5em;
+  }
+
+  .btn {
+    position: relative;
+    top: 10px;
+    margin-top: 10px;
+    z-index: 2;
+  }
+  .vremee {
+    display: none;
+  }
+  .newsletter {
+    background-color: black;
+    height: 230px;
+    width: initial;
+  }
+  #lineup {
+    height: 10em;
+  }
+
+  #lineup h2 {
+    position: relative;
+    top: 1em;
+  }
+}

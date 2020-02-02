@@ -1,0 +1,33 @@
+@media only screen and (min-width: 767px) {
+  .poglavlje > h2 {
+    text-align: center;
+    border-bottom: solid;
+    padding: 40px;
+    margin: 0 250px 0 250px; }
+  .logo {
+    position: relative;
+    right: 5em;
+    bottom: 0.25em; }
+  .logo img {
+    width: 8.5em; }
+  .main_content_body {
+    margin: auto;
+    margin: 0 100px 0 100px; }
+  .main_content_body div img {
+    width: 100%; }
+  .textt {
+    text-align: center; }
+  .vremee {
+    padding: 7px;
+    text-align: right;
+    position: relative;
+    top: 50px;
+    z-index: 2;
+    background: none; }
+  .vrem {
+    border: solid;
+    padding: 5px;
+    display: inline;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 5px; } }

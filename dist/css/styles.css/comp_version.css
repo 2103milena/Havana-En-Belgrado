@@ -1,0 +1,68 @@
+@media only screen and (min-width: 992px) {
+  .main_content_body {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  #slajder_news {
+    background-color: black; }
+  #najava {
+    order: 1; }
+  #najava_slika {
+    order: 2; }
+  .main_content_body div img {
+    width: 50%; }
+  .textt {
+    font-size: 30px;
+    margin: auto 20px auto 20px;
+    text-align: center; }
+  .feedback {
+    margin: 30px 100px;
+    text-align: center; }
+  .logo {
+    position: relative;
+    left: 1px;
+    bottom: 10px; }
+  .logo img {
+    width: 10em; }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    position: relative;
+    left: 10em;
+    font-size: 1em;
+    padding-right: 2em; }
+  .vremee {
+    padding: 7px;
+    text-align: right;
+    position: relative;
+    top: 50px;
+    z-index: 2;
+    background: none; }
+  .vrem {
+    border: solid;
+    padding: 5px;
+    display: inline;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 5px; }
+  .day,
+  .hour,
+  .min,
+  .sec {
+    padding: 3px; }
+  .prozori {
+    font-size: 20px;
+    margin-left: 2px; }
+  #lineup {
+    height: 250px;
+    width: 100%; }
+  #lineup h2 {
+    position: relative;
+    top: 60px; }
+  .nav-tabs {
+    margin-top: 150px; }
+  #nav-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+  .newsletter {
+    background-color: black;
+    width: 100%; }
+  .tab-content {
+    padding-left: 3em; } }
