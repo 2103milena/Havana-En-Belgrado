@@ -29,6 +29,6 @@
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "grid": "^4.7.0",
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   }
 }
